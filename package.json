@@ -9,13 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.15.0",
     "autoprefixer": "10.4.14",
+    "dotenv": "^16.0.3",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
     "next": "13.3.0",
     "postcss": "8.4.21",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "3.3.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-telegram-auth": "^1.0.4",
+    "react-telegram-login": "^1.1.2",
+    "tailwindcss": "3.3.1",
+    "telegram-login-button": "^0.0.3"
   }
 }
