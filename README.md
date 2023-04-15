@@ -1,20 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Before you proceed
 
-## Getting Started
+Start by creating a Bot with @BotFather on telegram which'll give you token. Rest, you can get from creating an app in Telegram's [https://my.telegram.org/](API development tools).
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+```
+TELEGRAM_API_ID
+TELEGRAM_API_HASH
+TELEGRAM_BOT_TOKEN
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then,
+0. Search for 'TODO' in the code where you'll have to do some changes as required.
+1. Get this boilerplate, run *yarn run dev* to run on [localhost:3000](http://localhost:3000), then run *ngrok http 3000* which gives you a URL. 
+2. In @BotFather telegram chat, put that domain in /setdomain command.
+3. You'll now be able to login with Telegram as well as see your changes reflect in the same.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+(This is compulsory to test Telegram login in local environment)
+
+```
+Start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
